@@ -1,0 +1,76 @@
+{
+  "$type": "AdvTicTacToe.Game.Business.Model.GameState, AdvTicTacToe",
+  "Board": {
+    "$type": "AdvTicTacToe.Game.Business.Model.Board, AdvTicTacToe",
+    "Grid": {
+      "$type": "System.Char[,], System.Private.CoreLib",
+      "$values": [
+        [
+          "X",
+          "O",
+          "X"
+        ],
+        [
+          "O",
+          "O",
+          "X"
+        ],
+        [
+          "X",
+          "X",
+          "X"
+        ]
+      ]
+    },
+    "Length": 3
+  },
+  "BlankTile": ".",
+  "Players": {
+    "$type": "System.Collections.Generic.List`1[[AdvTicTacToe.Game.Business.Model.Player, AdvTicTacToe]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "AdvTicTacToe.Game.Business.Model.Player, AdvTicTacToe",
+        "Name": "Alice",
+        "Id": 0,
+        "Tile": "O",
+        "Points": 0,
+        "Move": {
+          "$type": "AdvTicTacToe.Game.Business.Controller.Move.BadCpuMove, AdvTicTacToe",
+          "_numberGenerator": {
+            "$type": "AdvTicTacToe.Game.Business.Controller.RNG.NumberGenerator, AdvTicTacToe"
+          }
+        }
+      },
+      {
+        "$type": "AdvTicTacToe.Game.Business.Model.Player, AdvTicTacToe",
+        "Name": "Bob",
+        "Id": 1,
+        "Tile": "X",
+        "Points": 0,
+        "Move": {
+          "$type": "AdvTicTacToe.Game.Business.Controller.Move.BadCpuMove, AdvTicTacToe",
+          "_numberGenerator": {
+            "$type": "AdvTicTacToe.Game.Business.Controller.RNG.NumberGenerator, AdvTicTacToe"
+          }
+        }
+      }
+    ]
+  },
+  "CurrentPlayerId": 1,
+  "CurrentPlayer": {
+    "$type": "AdvTicTacToe.Game.Business.Model.Player, AdvTicTacToe",
+    "Name": "Bob",
+    "Id": 1,
+    "Tile": "X",
+    "Points": 0,
+    "Move": {
+      "$type": "AdvTicTacToe.Game.Business.Controller.Move.BadCpuMove, AdvTicTacToe",
+      "_numberGenerator": {
+        "$type": "AdvTicTacToe.Game.Business.Controller.RNG.NumberGenerator, AdvTicTacToe"
+      }
+    }
+  },
+  "Winner": null,
+  "CurrentRound": 1,
+  "TotalRounds": 3
+}

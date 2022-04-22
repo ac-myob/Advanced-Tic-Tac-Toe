@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvTicTacToe", "AdvTicTacToe\AdvTicTacToe.csproj", "{CABB084B-E8CC-4365-80EB-1ED0394EF5D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvTicTacToe.Tests", "AdvTicTacToe.Tests\AdvTicTacToe.Tests.csproj", "{90C0199E-5F2D-4F3A-9064-E19D40111EDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CABB084B-E8CC-4365-80EB-1ED0394EF5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABB084B-E8CC-4365-80EB-1ED0394EF5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABB084B-E8CC-4365-80EB-1ED0394EF5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABB084B-E8CC-4365-80EB-1ED0394EF5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C0199E-5F2D-4F3A-9064-E19D40111EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C0199E-5F2D-4F3A-9064-E19D40111EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C0199E-5F2D-4F3A-9064-E19D40111EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C0199E-5F2D-4F3A-9064-E19D40111EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
